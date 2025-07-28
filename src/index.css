@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 240 10% 3.9%;
+        --foreground: 0 0% 98%;
+        --border: 240 4% 16%;
+        --input: 240 4% 16%;
+        --ring: 240 5% 65%;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', sans-serif;
+    }
+}
